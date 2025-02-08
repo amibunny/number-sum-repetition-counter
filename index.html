@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Sum and Repetition Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Sum and Repetition Counter</h1>
+        <label for="numberInput">Enter numbers or expressions (e.g., 1+1, 3*2, 5.5, 10/2):</label>
+        <input type="text" id="numberInput" placeholder="e.g., 1+1, 3*2, 5.5, 10/2">
+        
+        <button class="btn" onclick="processInput()">Process</button>
+
+        <div id="results">
+            <p>Total Numbers Entered: <span id="totalNumbers">0</span></p>
+            <p>Sum of Numbers: <span id="sum">0</span></p>
+            <p>Repeated Numbers: <span id="repeatedNumbers">None</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
